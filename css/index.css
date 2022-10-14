@@ -35,11 +35,15 @@ header {
 }
 .navbar > .search > span {
   margin-right: 20px;
+  cursor: pointer;
 }
 .navbar > .search > input {
   width: 80%;
   background: none;
   border: none;
+}
+.navbar > .search > input:focus-visible{
+  outline: none;
 }
 .navbar > .search > input::placeholder {
   font-weight: 500;
