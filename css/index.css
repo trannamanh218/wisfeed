@@ -840,7 +840,7 @@ li {
 .user-comment li .personal-page-user {
   display: flex;
 }
-.user-comment li .personal-page-user .img {
+.user-comment li .personal-page-user .left .img {
   border-radius: 50%;
   overflow: hidden;
   width: 36px;
