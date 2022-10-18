@@ -541,6 +541,12 @@ header {
 .box-top3-charts > .top-1-charts > .number-charts {
   top: 40px !important;
 }
+.box-top2-charts > .top-1-charts > .number-charts {
+  background: #F4F4F4;
+}
+.box-top3-charts > .top-1-charts > .number-charts {
+  background: #B38C64;
+}
 .box-top2-charts > .top-1-charts > .name-user-charts,
 .box-top3-charts > .top-1-charts > .name-user-charts {
   font-weight: 500;
