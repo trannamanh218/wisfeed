@@ -845,7 +845,6 @@ li {
   overflow: hidden;
   width: 36px;
   height: 36px;
-  margin-right: 10px;
   cursor: pointer;
 }
 .personal-page-user .information-user {
@@ -869,6 +868,7 @@ li {
   line-height: 22px;
   letter-spacing: 0.25px;
   color: #4e4b66;
+  word-wrap: break-word !important;
 }
 .information-user .commmet > a {
   font-weight: 700;
@@ -901,6 +901,13 @@ li {
 }
 .user-comment li .personal-page-user {
   margin-bottom: 20px;
+}
+.personal-page-user .left {
+  width: 6%;
+  margin-right: 10px;
+}
+.personal-page-user .right {
+  
 }
 .items-user-comment li {
   margin-bottom: 20px;
