@@ -674,6 +674,9 @@ header {
   color: #a0a3bd;
   margin-right: 10px;
 }
+.user-information .post-rating .icon {
+  margin-right: 3px;
+}
 .personal-page .user-information {
   display: flex;
   flex-wrap: wrap;
