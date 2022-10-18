@@ -861,6 +861,7 @@ li {
   line-height: 22px;
   letter-spacing: 0.25px;
   color: #2d2c42;
+  cursor: pointer;
 }
 .information-user .commmet {
   font-weight: 600;
