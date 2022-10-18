@@ -542,10 +542,10 @@ header {
   top: 40px !important;
 }
 .box-top2-charts > .top-1-charts > .number-charts {
-  background: #F4F4F4;
+  background: #f4f4f4;
 }
 .box-top3-charts > .top-1-charts > .number-charts {
-  background: #B38C64;
+  background: #b38c64;
 }
 .box-top2-charts > .top-1-charts > .name-user-charts,
 .box-top3-charts > .top-1-charts > .name-user-charts {
@@ -565,7 +565,6 @@ header {
   right: 15px;
   transform: rotate(10deg);
 }
-
 
 /* boxxxxxxxxx center ************/
 .box-center {
@@ -868,6 +867,15 @@ li {
   letter-spacing: 0.25px;
   color: #4e4b66;
 }
+.information-user .commmet > a {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  color: #2d2c42;
+  text-decoration: none;
+}
+
 .btn-information-user {
   display: flex;
 }
