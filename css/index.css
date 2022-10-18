@@ -42,7 +42,7 @@ header {
   background: none;
   border: none;
 }
-.navbar > .search > input:focus-visible{
+.navbar > .search > input:focus-visible {
   outline: none;
 }
 .navbar > .search > input::placeholder {
@@ -453,6 +453,113 @@ header {
   color: #2d2c42;
   margin-bottom: 20px;
 }
+.ing-charts {
+  position: relative;
+}
+.box-top1-charts {
+  width: 28%;
+  position: absolute;
+  top: 22%;
+  left: 36%;
+}
+.top-1-charts {
+  position: relative;
+  cursor: pointer;
+}
+.top-1-charts > img {
+  width: 59.2px;
+  height: 59.2px;
+  position: absolute;
+  top: -43px;
+  left: 7px;
+}
+.avata-user-top {
+  width: 75.78px;
+  height: 75.78px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #e0af7e;
+  border: 2.96009px solid #ffca28;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.number-charts {
+  font-weight: 700;
+  font-size: 10.6563px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.444014px;
+  color: #342145;
+  background: #ffca28;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 65px;
+  left: 29px;
+}
+.name-user-charts {
+  font-weight: 600;
+  font-size: 10.6563px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.444014px;
+  color: #2d2c42;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+.score-charts {
+  font-weight: 600;
+  font-size: 10.6563px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.444014px;
+  color: #e0af7e;
+}
+.box-top2-charts,
+.box-top3-charts {
+  width: 28%;
+  cursor: pointer;
+}
+.box-top2-charts > .top-1-charts,
+.box-top3-charts > .top-1-charts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-top2-charts > .top-1-charts > .avata-user-top,
+.box-top3-charts > .top-1-charts > .avata-user-top {
+  width: 48.55px;
+  height: 48.55px;
+}
+.box-top2-charts > .top-1-charts > .number-charts,
+.box-top3-charts > .top-1-charts > .number-charts {
+  top: 40px !important;
+}
+.box-top2-charts > .top-1-charts > .name-user-charts,
+.box-top3-charts > .top-1-charts > .name-user-charts {
+  font-weight: 500;
+  font-size: 8.88028px;
+  line-height: 14px;
+}
+.box-top2-charts {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: rotate(-8deg);
+}
+.box-top3-charts {
+  position: absolute;
+  top: 53%;
+  right: 15px;
+  transform: rotate(10deg);
+}
+
 
 /* boxxxxxxxxx center ************/
 .box-center {
@@ -501,7 +608,7 @@ header {
   border: none;
   padding: 10px 10px;
 }
-.box-news .box-post .post-news .text-post-news > input:focus-visible{
+.box-news .box-post .post-news .text-post-news > input:focus-visible {
   outline: none;
 }
 .box-news .box-post .post-news .text-post-news > input::placeholder {
@@ -515,6 +622,7 @@ header {
 .box-news .box-post .category-post .item {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .category-post .item .icon {
   width: 22px;
@@ -803,7 +911,7 @@ li {
   border-radius: 15px;
   padding: 10px 10px;
 }
-.btn-user-comment > form > input:focus-visible{
+.btn-user-comment > form > input:focus-visible {
   outline: none;
 }
 .btn-user-comment > form > input::placeholder {
@@ -833,7 +941,7 @@ li {
   text-align: center;
   letter-spacing: 0.25px;
   color: #b38c64;
-  background: #F5E7D8;
+  background: #f5e7d8;
   border-radius: 4px;
   padding: 0px 4px;
   margin-left: 10px;
