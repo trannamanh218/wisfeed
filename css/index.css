@@ -21,7 +21,7 @@ header {
   border-radius: 0px;
 }
 .navbar > .logo {
-  width: 15%;
+  width: 11.5%;
   cursor: pointer;
 }
 .navbar > .search {
@@ -66,10 +66,14 @@ header {
 }
 .navbar > .profile {
   width: 5%;
+}
+.navbar > .profile > a {
   border-radius: 50%;
   overflow: hidden;
+  width: 60px;
+  height: 60px;
+  display: block;
 }
-
 .box-container {
   display: flex;
   background: #fbf7f2;
